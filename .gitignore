@@ -1,3 +1,6 @@
+# Archivos eliminados del IDE
 /.idea
-/files/
-/ArchivosRecibidos/
+#Archivos de prueba muy pesados para github
+/files/100MB.txt
+/files/250MB.txt
+!/ArchivosRecibidos/.gitkeep
