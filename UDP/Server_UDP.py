@@ -36,7 +36,7 @@ def createLog():
     # Fecha y hora --creacion log
     fecha = datetime.datetime.now()
 
-    logName = "../Logs/Server/" + str(fecha) + "-log.txt"
+    logName = "../Logs/Server/" + str(fecha).replace(":", "-").replace(".", ",") + "-log.txt"
     logFile = open(logName, "a")
     logFile.write("Fecha: " + str(fecha) + "\n")
 
